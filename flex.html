@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: green;
+            border-radius: 5px;
+            padding: 15px;
+            color: aliceblue;
+            font-size: 1em;
+
+        }
+        .container{
+            display: flex;
+            
+        }
+        .box-container{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .items{
+            background-color: aqua;
+            color: black;
+            width: 10%;
+            padding: 2%;
+
+        }
+        @media screen and (max-width:576px){
+           
+              .container{
+                flex-direction: column;
+              }
+              .box-container{
+                flex-direction: column;
+              }
+
+      
+        }
+    </style>
+</head>
+<body>
+    <h1>Lets Explore Flex</h1>
+    <div class="container">
+    <div class="box">
+        <h3>box-1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quasi exercitationem non magnam consequuntur eligendi molestias. 
+            Sit iure dolorum odio reiciendis? Tempore, expedita! Eius, minima ab,
+             repudiandae enim laborum consequuntur, voluptatem labore unde 
+             magnam itaque adipisci rerum quo! Dignissimos commodi amet labore
+              fuga vitae quos, a ullam architecto minima eos odit. Libero,
+               tempore! Eos laboriosam ipsum odio
+             maxime temporibus delectus fugiat!</p>
+    </div>
+    <div class="box">
+        <h3>box-2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quasi exercitationem non magnam consequuntur eligendi molestias. 
+            Sit iure dolorum odio reiciendis? Tempore, expedita! Eius, minima ab,
+             repudiandae enim laborum consequuntur, voluptatem labore unde 
+             magnam itaque adipisci rerum quo! Dignissimos commodi amet labore
+              fuga vitae quos, a ullam architecto minima eos odit. Libero,
+               tempore! Eos laboriosam ipsum odio
+             maxime temporibus delectus fugiat!</p>
+    </div>  
+    </div>
+    <div class="box-container">
+        <div class="items">box1</div>
+        <div class="items">box2</div>
+        <div class="items">box3</div>
+        <div class="items">box4</div>
+        <div class="items">box5</div>
+        <div class="items">box6</div>
+        <div class="items">box7</div>
+        <div class="items">box8</div>
+        <div class="items">box9</div>
+        <div class="items">box10</div>
+        <div class="items">box11</div>
+        <div class="items">box12</div>
+        <div class="items">box13</div>
+        <div class="items">box14</div>
+        <div class="items">box15</div>
+        <div class="items">box16</div>
+        <div class="items">box17</div>
+        <div class="items">box18</div>
+        <div class="items">box19</div>
+        <div class="items">box20</div>
+    </div>
+</body>
+</html>
